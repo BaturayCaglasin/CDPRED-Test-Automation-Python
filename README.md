@@ -6,7 +6,7 @@ Dear reader,
 
 You are viewing the Python part of the project prepared for the position of CD Projekt Red - QA Engineer.The test automation project written in Java is written under the https://github.com/BaturayCaglasin/CDPRED-Test-Automation-Java repository.
 
-In this project, **Python-Selenium-Behave-Gherkin-Allure Report** frameworks were used.
+In this project, **Python-Selenium-Behave-Gherkin-Allure Report** languages & frameworks were used.
 
 In order to execute a test, on the terminal; "behave --tags=Test  /Users/baturaycaglasin/PycharmProjects/CDPRED-Test-Automation-Python/test/features/" should be type.
 
