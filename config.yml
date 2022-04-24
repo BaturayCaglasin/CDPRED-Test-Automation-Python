@@ -1,0 +1,7 @@
+env:
+
+  application_url: "http://automationpractice.com"
+  username: ""
+  password: ""
+  browser: chromium
+
