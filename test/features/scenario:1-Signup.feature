@@ -5,7 +5,7 @@ Feature: Sign up on Automation Practice
       Given Open the URL
       When User clicks sign_in_button
 #TC0001
-  @Test1
+  @Test
   Scenario: TC0001- Verify Authentication - Create an Account Page is exists or not.
       Then I verify the text on the element create_an_account_text_area
 
