@@ -8,25 +8,25 @@ Feature: Adding Products to Cart on Automation Practice
     When User clicks signin_button
 
 #TC0001
-  @Test
+  @ntest
   Scenario: TC0001- At least one product exists in the t-shirt segment.
     When User clicks t_shirts_button
     Then I verify the element product_list_row
 
 #TC0002
-  @Test
+  @ntest
   Scenario: TC0002- At least one product exists in the dresses segment.
     When User clicks dresses_button
     Then I verify the element product_list_row
 
 #TC0003
-  @Test
+  @ntest
   Scenario: TC0003- At least one product exists in the women segment.
     When User clicks women_button
     Then I verify the element product_list_row
 
 #TC0004
-  @Test
+  @ntest
   Scenario: TC0004- Grid Structure Works or Not
     When User clicks t_shirts_button
     When User clicks list_structure_button
@@ -34,14 +34,14 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element grid_structure_list
 
 #TC0005
-  @Test
+  @ntest
   Scenario: TC0005- List Structure Works or Not
     When User clicks t_shirts_button
     When User clicks list_structure_button
     Then I verify the element list_structure_list
 
 #TC0006
-  @Test
+  @ntest
   Scenario: TC0006- Color Change - Orange to Blue
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt
@@ -50,7 +50,7 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element color_blue_selected
 
 #TC0007
-  @Test
+  @ntest
   Scenario: TC0007- Color Change - Blue to Orange
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt
@@ -59,7 +59,7 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element "color_orange_selected
 
 #TC0008
-  @Test
+  @ntest
   Scenario: TC0008- More Button
     When User clicks t_shirts_button
     Then I hover the element_faded_t_shirt
@@ -67,7 +67,7 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element description_area
 
 #TC0009
-  @Test
+  @ntest
   Scenario: TC0009- Add Wishlist Button
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt
@@ -76,7 +76,7 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the text on the element successfully_added_text_area
 
 #TC00010
-  @Test
+  @ntest
   Scenario: TC0010- Add To Compare Button
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt
@@ -84,20 +84,20 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element checked_add_to_compare_button
 
 #TC00011
-  @Test
+  @ntest
   Scenario: TC0011- Categories Filter
     When User clicks dresses_button
     When User clicks evening_dresses_filter_button
     Then I verify the element evening_dresses_filter_accepted
 
 #TC00012
-  @Test
+  @ntest
   Scenario: TC0012- Price Range Filter
     When User clicks dresses_button
     Then I scroll the element price_range
 
 #TC0013
-  @Test
+  @ntest
   Scenario: TC0013- Add to Cart Process
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt
@@ -106,7 +106,7 @@ Feature: Adding Products to Cart on Automation Practice
     Then I verify the element add_to_cart_progress_is_succeeded_icon
 
  #TC0014
-  @Test
+  @ntest
   Scenario: TC0014- Delete a Product from Add to Cart
     When User clicks t_shirts_button
     Then I hover the element faded_t_shirt

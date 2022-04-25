@@ -28,7 +28,7 @@ Feature: Sign up on Automation Practice
       | test@gmail.com |
 
  #TC0004
-  @Test
+  @ntest
   Scenario: TC0004- Use a mail that will be new - SignUp Scenario
     Then The user enters random email to email_text_area
     When User clicks create_an_account_button
@@ -36,7 +36,7 @@ Feature: Sign up on Automation Practice
     Then I verify the text on the element your_personal_information_text_area
 
  #TC0005
-  @Test
+  @ntest
   Scenario Outline: TC0005- Entering all fields for sign up process
 
     Then The user enters random email to email_text_area
@@ -78,7 +78,7 @@ Feature: Sign up on Automation Practice
       | test      | test     | testtest | test              | test             | test            | test           | test           | test | 22112           |
 
  #TC0006
-  @Test
+  @ntest
   Scenario Outline: TC0006- Empty Password
     Then The user enters random email to email_text_area
     When User clicks create_an_account_button
@@ -94,7 +94,7 @@ Feature: Sign up on Automation Practice
       |       |
 
   #TC0007
-  @Test
+  @ntest
   Scenario Outline: TC0007- Enter invalid zipcode type.
     Then The user enters random email to email_text_area
     When User clicks create_an_account_button

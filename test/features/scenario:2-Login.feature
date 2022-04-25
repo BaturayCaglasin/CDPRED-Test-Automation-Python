@@ -5,12 +5,12 @@ Feature: Sign In on Automation Practice
     When User clicks sign_in_button
 
 #TC0001
-  @Test
+  @ntest
   Scenario: TC0001- Verify Authentication - Login an Account Page is exists or not.
     Then I verify the text on the element already_registered_text_area
 
 #TC0002
-  @Test
+  @ntest
   Scenario Outline: TC0002- Invalid Credentials
     Then The user enters "<email>" to signin_email_area
     Then The user enters "<password>" to signin-password-area
@@ -22,7 +22,7 @@ Feature: Sign In on Automation Practice
       | test@test.com | testtest |
 
 #TC0003
-  @Test
+  @ntest
   Scenario Outline: TC0003- Valid Credentials
     Then The user enters "<email>" to signin_email_area
     Then The user enters "<password>" to signin_password_area
@@ -36,13 +36,13 @@ Feature: Sign In on Automation Practice
       | geraltofrivia@test.com | Test*0101 |
 
  #TC0004
-  @Test
+  @ntest
   Scenario: TC0004- Forgot Your Password Button Works or Not
     When User clicks forgot_your_password_button
     Then I verify the text on the element forgot_password_text_area
 
  #TC0005
-  @Test
+  @ntest
   Scenario Outline: TC0005- Retrieve Password
     When User clicks forgot_your_password_button
     Then The user enters "<email>" to email_text_area
