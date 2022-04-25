@@ -8,7 +8,7 @@ You are viewing the Python part of the project prepared for the position of CD P
 
 In this project, **Python-Selenium-Behave-Gherkin-Allure Report** languages & frameworks were used.
 
-In order to execute a test, on the terminal; "behave --tags=Test  /Users/baturaycaglasin/PycharmProjects/CDPRED-Test-Automation-Python/test/features/" should be type.
+In order to execute a test, on the terminal; "behave --tags=Test  /Users/baturaycaglasin/PycharmProjects/CDPRED-Test-Automation-Python/test/features/" should be type. (it was an example, the path should be on your file location.)
 
 The report tool used is Allure Report; After the test runs are finished, the test run reports can be viewed after the command named "Allure Serve" written in the terminal.
 
